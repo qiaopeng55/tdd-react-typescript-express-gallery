@@ -1,0 +1,853 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomePage renders properly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <HomePage
+    classes={
+      Object {
+        "paperRoot": undefined,
+      }
+    }
+    paginateProducts={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            Object {
+              "limit": 8,
+              "start": 0,
+            },
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    product_total={1000}
+    products={Array []}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <WithStyles(Typography)
+          id="title"
+          variant="h5"
+        >
+          All Products
+        </WithStyles(Typography)>,
+        <ForwardRef>
+          <div>
+            <WithStyles(Typography)
+              id="product_total"
+              variant="caption"
+            >
+              1000 Products
+            </WithStyles(Typography)>
+          </div>
+          <div>
+            <WithStyles(Select)
+              disableUnderline={true}
+              name="limit"
+              onChange={[Function]}
+              value={8}
+            >
+              <WithStyles(MenuItem)
+                value={8}
+              >
+                8 per page
+              </WithStyles(MenuItem)>
+              <WithStyles(MenuItem)
+                value={16}
+              >
+                16 per page
+              </WithStyles(MenuItem)>
+              <WithStyles(MenuItem)
+                value={20}
+              >
+                20 per page
+              </WithStyles(MenuItem)>
+            </WithStyles(Select)>
+          </div>
+        </ForwardRef>,
+        <ForwardRef
+          weight={1}
+        />,
+        <Row />,
+        <ForwardRef
+          height={30}
+        />,
+        <Row
+          end="xs"
+        >
+          <WithStyles(Pagination)
+            classes={Object {}}
+            currentPageColor="inherit"
+            limit={8}
+            nextPageLabel="Next page >"
+            offset={0}
+            onClick={[Function]}
+            otherPageColor="inherit"
+            previousPageLabel="< Previous page"
+            reduced={true}
+            total={1000}
+          />
+        </Row>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "All Products",
+          "id": "title",
+          "variant": "h5",
+        },
+        "ref": null,
+        "rendered": "All Products",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <div>
+              <WithStyles(Typography)
+                id="product_total"
+                variant="caption"
+              >
+                1000 Products
+              </WithStyles(Typography)>
+            </div>,
+            <div>
+              <WithStyles(Select)
+                disableUnderline={true}
+                name="limit"
+                onChange={[Function]}
+                value={8}
+              >
+                <WithStyles(MenuItem)
+                  value={8}
+                >
+                  8 per page
+                </WithStyles(MenuItem)>
+                <WithStyles(MenuItem)
+                  value={16}
+                >
+                  16 per page
+                </WithStyles(MenuItem)>
+                <WithStyles(MenuItem)
+                  value={20}
+                >
+                  20 per page
+                </WithStyles(MenuItem)>
+              </WithStyles(Select)>
+            </div>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <WithStyles(Typography)
+                id="product_total"
+                variant="caption"
+              >
+                1000 Products
+              </WithStyles(Typography)>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "1000 Products",
+                "id": "product_total",
+                "variant": "caption",
+              },
+              "ref": null,
+              "rendered": "1000 Products",
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <WithStyles(Select)
+                disableUnderline={true}
+                name="limit"
+                onChange={[Function]}
+                value={8}
+              >
+                <WithStyles(MenuItem)
+                  value={8}
+                >
+                  8 per page
+                </WithStyles(MenuItem)>
+                <WithStyles(MenuItem)
+                  value={16}
+                >
+                  16 per page
+                </WithStyles(MenuItem)>
+                <WithStyles(MenuItem)
+                  value={20}
+                >
+                  20 per page
+                </WithStyles(MenuItem)>
+              </WithStyles(Select)>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <WithStyles(MenuItem)
+                    value={8}
+                  >
+                    8 per page
+                  </WithStyles(MenuItem)>,
+                  <WithStyles(MenuItem)
+                    value={16}
+                  >
+                    16 per page
+                  </WithStyles(MenuItem)>,
+                  <WithStyles(MenuItem)
+                    value={20}
+                  >
+                    20 per page
+                  </WithStyles(MenuItem)>,
+                ],
+                "disableUnderline": true,
+                "name": "limit",
+                "onChange": [Function],
+                "value": 8,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "8 per page",
+                    "value": 8,
+                  },
+                  "ref": null,
+                  "rendered": "8 per page",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "16 per page",
+                    "value": 16,
+                  },
+                  "ref": null,
+                  "rendered": "16 per page",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "20 per page",
+                    "value": 20,
+                  },
+                  "ref": null,
+                  "rendered": "20 per page",
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            "type": "div",
+          },
+        ],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": undefined,
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bwzfXH",
+            "isStatic": true,
+            "rules": Array [
+              "
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "render": [Function],
+          "styledComponentId": "sc-bwzfXH",
+          "target": "div",
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "weight": 1,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": undefined,
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bxivhb",
+            "isStatic": false,
+            "rules": Array [
+              "
+  border: ",
+              [Function],
+              "px solid #eeeeee;
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "render": [Function],
+          "styledComponentId": "sc-bxivhb",
+          "target": "div",
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [],
+        },
+        "ref": null,
+        "rendered": Array [],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "height": 30,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": undefined,
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-htpNat",
+            "isStatic": false,
+            "rules": Array [
+              "
+  height: ",
+              [Function],
+              "px;
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "render": [Function],
+          "styledComponentId": "sc-htpNat",
+          "target": "div",
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <WithStyles(Pagination)
+            classes={Object {}}
+            currentPageColor="inherit"
+            limit={8}
+            nextPageLabel="Next page >"
+            offset={0}
+            onClick={[Function]}
+            otherPageColor="inherit"
+            previousPageLabel="< Previous page"
+            reduced={true}
+            total={1000}
+          />,
+          "end": "xs",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "classes": Object {},
+            "currentPageColor": "inherit",
+            "limit": 8,
+            "nextPageLabel": "Next page >",
+            "offset": 0,
+            "onClick": [Function],
+            "otherPageColor": "inherit",
+            "previousPageLabel": "< Previous page",
+            "reduced": true,
+            "total": 1000,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <WithStyles(Typography)
+            id="title"
+            variant="h5"
+          >
+            All Products
+          </WithStyles(Typography)>,
+          <ForwardRef>
+            <div>
+              <WithStyles(Typography)
+                id="product_total"
+                variant="caption"
+              >
+                1000 Products
+              </WithStyles(Typography)>
+            </div>
+            <div>
+              <WithStyles(Select)
+                disableUnderline={true}
+                name="limit"
+                onChange={[Function]}
+                value={8}
+              >
+                <WithStyles(MenuItem)
+                  value={8}
+                >
+                  8 per page
+                </WithStyles(MenuItem)>
+                <WithStyles(MenuItem)
+                  value={16}
+                >
+                  16 per page
+                </WithStyles(MenuItem)>
+                <WithStyles(MenuItem)
+                  value={20}
+                >
+                  20 per page
+                </WithStyles(MenuItem)>
+              </WithStyles(Select)>
+            </div>
+          </ForwardRef>,
+          <ForwardRef
+            weight={1}
+          />,
+          <Row />,
+          <ForwardRef
+            height={30}
+          />,
+          <Row
+            end="xs"
+          >
+            <WithStyles(Pagination)
+              classes={Object {}}
+              currentPageColor="inherit"
+              limit={8}
+              nextPageLabel="Next page >"
+              offset={0}
+              onClick={[Function]}
+              otherPageColor="inherit"
+              previousPageLabel="< Previous page"
+              reduced={true}
+              total={1000}
+            />
+          </Row>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "All Products",
+            "id": "title",
+            "variant": "h5",
+          },
+          "ref": null,
+          "rendered": "All Products",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <div>
+                <WithStyles(Typography)
+                  id="product_total"
+                  variant="caption"
+                >
+                  1000 Products
+                </WithStyles(Typography)>
+              </div>,
+              <div>
+                <WithStyles(Select)
+                  disableUnderline={true}
+                  name="limit"
+                  onChange={[Function]}
+                  value={8}
+                >
+                  <WithStyles(MenuItem)
+                    value={8}
+                  >
+                    8 per page
+                  </WithStyles(MenuItem)>
+                  <WithStyles(MenuItem)
+                    value={16}
+                  >
+                    16 per page
+                  </WithStyles(MenuItem)>
+                  <WithStyles(MenuItem)
+                    value={20}
+                  >
+                    20 per page
+                  </WithStyles(MenuItem)>
+                </WithStyles(Select)>
+              </div>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <WithStyles(Typography)
+                  id="product_total"
+                  variant="caption"
+                >
+                  1000 Products
+                </WithStyles(Typography)>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "1000 Products",
+                  "id": "product_total",
+                  "variant": "caption",
+                },
+                "ref": null,
+                "rendered": "1000 Products",
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <WithStyles(Select)
+                  disableUnderline={true}
+                  name="limit"
+                  onChange={[Function]}
+                  value={8}
+                >
+                  <WithStyles(MenuItem)
+                    value={8}
+                  >
+                    8 per page
+                  </WithStyles(MenuItem)>
+                  <WithStyles(MenuItem)
+                    value={16}
+                  >
+                    16 per page
+                  </WithStyles(MenuItem)>
+                  <WithStyles(MenuItem)
+                    value={20}
+                  >
+                    20 per page
+                  </WithStyles(MenuItem)>
+                </WithStyles(Select)>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <WithStyles(MenuItem)
+                      value={8}
+                    >
+                      8 per page
+                    </WithStyles(MenuItem)>,
+                    <WithStyles(MenuItem)
+                      value={16}
+                    >
+                      16 per page
+                    </WithStyles(MenuItem)>,
+                    <WithStyles(MenuItem)
+                      value={20}
+                    >
+                      20 per page
+                    </WithStyles(MenuItem)>,
+                  ],
+                  "disableUnderline": true,
+                  "name": "limit",
+                  "onChange": [Function],
+                  "value": 8,
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "8 per page",
+                      "value": 8,
+                    },
+                    "ref": null,
+                    "rendered": "8 per page",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "16 per page",
+                      "value": 16,
+                    },
+                    "ref": null,
+                    "rendered": "16 per page",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "20 per page",
+                      "value": 20,
+                    },
+                    "ref": null,
+                    "rendered": "20 per page",
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              "type": "div",
+            },
+          ],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": undefined,
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bwzfXH",
+              "isStatic": true,
+              "rules": Array [
+                "
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+",
+              ],
+            },
+            "displayName": "styled.div",
+            "render": [Function],
+            "styledComponentId": "sc-bwzfXH",
+            "target": "div",
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "weight": 1,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": undefined,
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bxivhb",
+              "isStatic": false,
+              "rules": Array [
+                "
+  border: ",
+                [Function],
+                "px solid #eeeeee;
+",
+              ],
+            },
+            "displayName": "styled.div",
+            "render": [Function],
+            "styledComponentId": "sc-bxivhb",
+            "target": "div",
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [],
+          },
+          "ref": null,
+          "rendered": Array [],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "height": 30,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": undefined,
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-htpNat",
+              "isStatic": false,
+              "rules": Array [
+                "
+  height: ",
+                [Function],
+                "px;
+",
+              ],
+            },
+            "displayName": "styled.div",
+            "render": [Function],
+            "styledComponentId": "sc-htpNat",
+            "target": "div",
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <WithStyles(Pagination)
+              classes={Object {}}
+              currentPageColor="inherit"
+              limit={8}
+              nextPageLabel="Next page >"
+              offset={0}
+              onClick={[Function]}
+              otherPageColor="inherit"
+              previousPageLabel="< Previous page"
+              reduced={true}
+              total={1000}
+            />,
+            "end": "xs",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "classes": Object {},
+              "currentPageColor": "inherit",
+              "limit": 8,
+              "nextPageLabel": "Next page >",
+              "offset": 0,
+              "onClick": [Function],
+              "otherPageColor": "inherit",
+              "previousPageLabel": "< Previous page",
+              "reduced": true,
+              "total": 1000,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
